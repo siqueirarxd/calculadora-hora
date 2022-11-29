@@ -29,10 +29,12 @@ section {
 .inpTime {
     width: 1.5rem;
     margin: 1px;
+    color: black;
 }
 
 .inpNum {
     width: 1.5rem;
+    color: black;
 }
 
 .button {
