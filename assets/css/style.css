@@ -1,0 +1,41 @@
+* {
+    font-family: 'Cinzel', serif;
+    color: yellow;
+}
+
+body {
+    background: #0f172a;    
+    
+}
+
+header {
+    display: block;
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem;
+    border: .5px solid white;
+}
+
+header h1 {
+    display: inline-block;
+    width: fit-content;
+}
+
+section {
+    display: block;
+    text-align: center;
+}
+
+.inpTime {
+    width: 1.5rem;
+    margin: 1px;
+}
+
+.inpNum {
+    width: 1.5rem;
+}
+
+.button {
+    color: black;
+}
+

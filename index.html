@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&display=swap" rel="stylesheet">
+    <title>Calculadora de Horas</title>
+</head>
+<body>
+    <header>    
+        <h1>Hour Calculator</h1>
+        <p>Soma, subtração, multiplicação e divisão</p>
+    </header>
+    <section class="contents">
+        <div>
+            <p>Digite a Hora:</p>
+            <input type="number" name="horas" id="horas" class="inpTime"> :
+            <input type="number" name="minutos" id="minutos" class="inpTime"> <br> <br>
+            <label>Somar/Subtrair por: </label>
+            <input type="number" name="horasSomaSub" id="horasSomaSub" class="inpTime"> :
+            <input type="number" name="minutosSomaSub" id="minutosSomaSub" class="inpTime"> <br> <br>
+            <input type="button" value="Somar" onclick="somar()" class="button">
+            <input type="button" value="Subtrair" onclick="subtrair()" class="button"> <br> <br>
+            <label for="diviMulti">Multiplicar/Dividir por: </label>
+            <input type="number" name="diviMulti" id="diviMulti" class="inpNum"> <br> <br>
+            <input type="button" value="Multiplicar" onclick="multiplicar()" class="button">
+            <input type="button" value="Dividir" onclick="dividir()" class="button">
+        </div>
+
+        <div id="res">
+
+        </div>
+    </section>
+
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>
